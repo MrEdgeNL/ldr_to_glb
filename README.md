@@ -22,9 +22,14 @@ Response:
 5. Upload GLB example. (done)
 6. Let ChatGPT create a html script, adding viewer & point to OBJ file:
    a. Not working: example Three.js-viewer.html
-   b. Working (only on local machine): example model viewer - google.html
-8. Show HTML page from github:
-Open browser:
+   b. Working on local machine: example model viewer - google.html
+8. Show HTML page from github, either use: https://raw.githack.com/ or https://html-preview.github.io:
+
+Works in browser:
+* https://raw.githack.com/MrEdgeNL/ldr_to_glb/main/example%20model%20viewer%20-%20google.html
+
+Does not work in browser:
+* https://raw.githack.com/MrEdgeNL/ldr_to_glb/main/example%20Three.js-viewer.html
 * https://html-preview.github.io/?url=https://github.com/MrEdgeNL/ldr_to_glb/main/example%20Three.js-viewer.html
 * https://html-preview.github.io/?url=https://github.com/MrEdgeNL/ldr_to_glb/main/example%20model%20viewer%20-%20google.html
 
