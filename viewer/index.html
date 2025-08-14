@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moubal 4-73 - 3D Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      background: #333;
+    }
+    header {
+      color: white;
+      text-align: center;
+      padding: 0.5em;
+      font-family: sans-serif;
+    }
+    model-viewer {
+      width: 100vw;
+      height: calc(100vh - 3em);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Moubal 4-73 - 3D Viewer</h1>
+</header>
+
+<model-viewer
+  src="https://raw.githubusercontent.com/MrEdgeNL/ldr_to_glb/main/Moubal_4-73.glb"
+  alt="Moubal 4-73"
+  camera-controls
+  auto-rotate
+  ar
+  environment-image="neutral"
+  shadow-intensity="1">
+</model-viewer>
+
+</body>
+</html>
