@@ -14,9 +14,9 @@ python ldr_to_glb_compleet.py --ldr Moubal_4-73_(KW).ldr --parts C:/Users/Public
 Response:
 ✅ Export voltooid: Moubal_4-73.glb
 
-4. Check if OBJ model works. (Done, with windows 3D viewer. Model is upsidedown, no color information yet. This is fine for now.)
+4. Check if GLB model works. (Done, with windows 3D viewer. Model is upsidedown, no color information yet. This is fine for now.)
 
-5. Upload OBJ example. (done)
+5. Upload GLB example. (done)
 6. Let ChatGPT create a html script, adding GLB-viewer & point to OBJ file. (not yet working?)
 7. Show HTML page:
 Open browser:
