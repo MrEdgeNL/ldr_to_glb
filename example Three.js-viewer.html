@@ -34,7 +34,8 @@
     scene.add(directional);
 
     const loader = new THREE.GLTFLoader();
-    const glbUrl = 'https://raw.githubusercontent.com/MrEdgeNL/ldr_to_glb/main/Moubal_4-73.glb';
+    <!-- const glbUrl = 'https://raw.githubusercontent.com/MrEdgeNL/ldr_to_glb/main/Moubal_4-73.glb'; -->
+    const glbUrl = 'https://github.com/MrEdgeNL/ldr_to_glb/blob/1635e47fa0664c4b093a9bf095f89bc983e9137e/Moubal_4-73.glb';
     loader.load(glbUrl,
       (gltf) => {
         scene.add(gltf.scene);
@@ -58,5 +59,6 @@
   </script>
 </body>
 </html>
+
 
 
