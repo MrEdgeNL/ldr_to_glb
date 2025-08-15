@@ -17,7 +17,7 @@ Response:
 
 ✅ Export voltooid: Moubal_4-73.glb
 
-4. Check if GLB model works. (Done, with windows 3D viewer. Model is upsidedown, no color information yet. This is fine for now.)
+4. Check if GLB model works. (Done, with windows 3D viewer.)
 
 5. Upload GLB example. (done)
 6. Let ChatGPT create a html script, adding viewer & point to OBJ file:
